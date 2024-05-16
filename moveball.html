@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     @keyframes moveball {
+        0%{left:10px;top:10px}
+        25%{left:500px;top:10px}
+        50%{left:500px;top:500px}
+        75%{left:10px;top:500px}
+        100%{left:10px;top:10px}
+     }
+     div{
+        width:100px;
+        height:100px;
+        border:3px solid black;
+        border-radius:50%;
+        position:relative;
+        background-color: pink;
+        animation-name:moveball;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+     }
+    </style>
+</head>
+<body>
+    <div>
+
+    </div>
+</body>
+</html>
